@@ -64,13 +64,28 @@ Major frameworks/libraries and Software used for this project:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* requirements.txt
+For this project you need to use the following software:
+* Python
+* Flask
+* Docker
+* Jenkins
+* Cloud Services (Azure, AWS)
+
+
+### Installation
+
+Minimum Installation to Fitness Application:
+
+* Python 3.7 or above
+
+* Python Environment
+  ```sh
+  python3 -m venv venv
+  ```
+* Install requirements.txt
   ```sh
   pip install -r requirements.txt
   ```
-
-### Installation
 
 
 
@@ -80,7 +95,10 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+* Run application (venv) >
+  ```sh
+  python3 run.py
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
