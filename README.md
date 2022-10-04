@@ -6,7 +6,7 @@
     <img src="main/static/images/logo.png" alt="Logo" width="229" height="50">
   </a>
 
-  <h3 align="center">DfE Cloud Specialism - Final Project</h3>
+  <h1 align="center">DfE Cloud Specialism - Final Project</h1>
 </div>
 
 
