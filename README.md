@@ -154,7 +154,7 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: main/static/images/screenshot.png
 [Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Python-url]: https://www.python.org/
 [Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
