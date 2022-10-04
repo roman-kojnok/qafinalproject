@@ -109,9 +109,9 @@ Minimum Installation to Fitness Application:
 
 - [x] Add Flask Folder Structure
 - [ ] Add Application Files
+- [ ] Add Docker File
 - [ ] Add Test File
 - [ ] Add Jenkins File
-- [ ] Add Docker File
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
