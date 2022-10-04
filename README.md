@@ -74,7 +74,7 @@ For this project you need to use the following software:
 
 ### Installation
 
-Minimum Installation to Fitness Application:
+Minimum Installation to run Fitness Application:
 
 * Python 3.7 or above
 
