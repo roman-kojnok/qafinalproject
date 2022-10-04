@@ -82,7 +82,7 @@ Minimum Installation to Fitness Application:
   ```sh
   python3 -m venv venv
   ```
-* Install requirements.txt
+* Install All Needed Python Modules using requirements.txt
   ```sh
   pip install -r requirements.txt
   ```
