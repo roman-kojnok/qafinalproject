@@ -107,7 +107,7 @@ Minimum Installation to Fitness Application:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Flask Folder Structure
+- [x] Add Flask Folder Structure
 - [ ] Add Application Files
 - [ ] Add Test File
 - [ ] Add Jenkins File
