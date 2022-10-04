@@ -39,11 +39,20 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+[![Azure VM Screenshot][product-screenshot]](https://example.com)
 Objectives with this project is to achieve the following:
 
 - To create a Flask application that integrates with a database and demonstrates CRUD functionality.
 - To utilise containers to host and deploy your application.
 - To create a continuous integration (CI)/continuous deployment (CD) pipeline that will automatically test, build and deploy your application.
+
+### Built With
+Major frameworks/libraries and Software used for this project:
+
+* [![Pyhon][Python.org]][Python-url]
+* [![Flask][React.js]][Flask-url]
+* [![Docker][Vue.js]][Docker-url]
+* [![Jenkins][Jenkins.io]][Jenkins-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,3 +134,13 @@ Roman Kojnok - [@LinkedIn](https://www.linkedin.com/in/roman-kojnok-b69601161/) 
 Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.com/roman-kojnok/qafinalproject)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[product-screenshot]: images/screenshot.png
+[Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
+[Python-url]: https://www.python.org/
+[Flask.com]: 
+[Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
+[Docker.com]: 
+[Docker-url]: https://www.docker.com/
+[Jenkins.io]: 
+[Jenkins-url]: https://www.jenkins.io/
