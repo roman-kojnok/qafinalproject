@@ -51,8 +51,8 @@ Objectives with this project is to achieve the following:
 Major frameworks/libraries and Software used for this project:
 
 * [![Pyhon][Python.org]][Python-url]
-* [![Flask][React.js]][Flask-url]
-* [![Docker][Vue.js]][Docker-url]
+* [![Flask][Flask.com]][Flask-url]
+* [![Docker][Docker.com]][Docker-url]
 * [![Jenkins][Jenkins.io]][Jenkins-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
