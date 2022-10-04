@@ -139,9 +139,9 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 [product-screenshot]: images/screenshot.png
 [Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Python-url]: https://www.python.org/
-[Flask.com]: 
+[Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
-[Docker.com]: 
+[Docker.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Docker-url]: https://www.docker.com/
-[Jenkins.io]: 
+[Jenkins.io]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Jenkins-url]: https://www.jenkins.io/
