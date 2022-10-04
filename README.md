@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/roman-kojnok/qafinalproject">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="main/static/images/logo.png" alt="Logo" width="229" height="50">
   </a>
 
   <h3 align="center">DfE Cloud Specialism - Final Project</h3>
@@ -64,13 +64,28 @@ Major frameworks/libraries and Software used for this project:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* requirements.txt
+For this project you need to use the following software:
+* Python
+* Flask
+* Docker
+* Jenkins
+* Cloud Services (Azure, AWS)
+
+
+### Installation
+
+Minimum Installation to Fitness Application:
+
+* Python 3.7 or above
+
+* Python Environment
+  ```sh
+  python3 -m venv venv
+  ```
+* Install All Needed Python Modules using requirements.txt
   ```sh
   pip install -r requirements.txt
   ```
-
-### Installation
 
 
 
@@ -80,7 +95,10 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+* Run application (venv) >
+  ```sh
+  python3 run.py
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,11 +107,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Flask Folder Structure
+- [x] Add Flask Folder Structure
 - [ ] Add Application Files
+- [ ] Add Docker File
 - [ ] Add Test File
 - [ ] Add Jenkins File
-- [ ] Add Docker File
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,7 +154,7 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: main/static/images/screenshot.png
 [Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Python-url]: https://www.python.org/
 [Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
