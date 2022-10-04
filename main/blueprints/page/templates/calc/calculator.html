@@ -1,0 +1,82 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Calculator{% endblock %}
+{% block meta_description %}Fitness Calculator Website is a Flask CRUD Project to demonstrate understanding of DevOps process. {% endblock %}
+
+{% block body %}
+  <div class="container sm-margin-top">
+    <div class="row text-center lg-margin-bottom">
+       <h1>Welcome to BMI Calculator!</h1>
+      <h3 class="text-muted">
+      </h3><br><br>
+                        <div style="height:auto!important;height:20px;border:1px ;font-size:16px;">For more info, what BMI is, click
+                    <label id="method" type="button" style="color:dodgerblue; width:100px;" onclick="let sta = document.getElementById('popTitle');
+                          let mod = document.getElementById('method');
+                          if(sta.style.display == 'none')
+                          {
+                          sta.style.display='';
+                          mod.innerText='close';
+                          mod.innerHTML='close';
+                          }
+                        else
+                          {
+                          sta.style.display='none';
+                          mod.innerText='here';
+                          mod.innerHTML='here';};">here
+
+                    </label>
+
+                    <div id="popTitle" visibility="hidden" style="display:none;">
+                        <pre style="word-break:break-all;width:510px;height:100px;color:dodgerblue;">
+Body mass index (BMI) is a measure of body fat based on your
+weight in relation to your height, and applies to most adult
+men and women aged 19 and over. For children and young people
+aged 2 to 18, the BMI calculation takes into account age
+and gender as well as height and weight.
+                            </pre>
+                    </div>
+        <div class="header">
+            <h2>Please, fill the *required fields:</h2>
+        </div>
+        <div class="msg">{{ msg }}</div>
+        <h2 class="word">
+            <form action="" method = "POST">
+                <h4>Your ID is: {{ current_user.id }}</h4>
+                <input id="client_id" name="client_id" required type="number" min="1" placeholder="*Your ID:" class="textbox" oninput="check(this)"/></br></br>
+                <input id="ca_weight" name="ca_weight" required type="number" min="1" placeholder="*Weight in kg:" class="textbox" oninput="check(this)"/></br></br>
+                <input id="ca_height" name="ca_height" required type="number" min="1" placeholder="*Height in cm:" class="textbox" oninput="check(this)"/></br></br>
+                <input id="ca_age" name="ca_age" required type="number" min="1" placeholder="*Your Age:" class="textbox" oninput="check(this)"/></br></br>
+                <label>Gender:</label>
+                <select>
+                    <option value = "1">Male</option>
+                    <option value = "0">Female</option>
+                </select><br><br>
+                <button type="submit" class="btn" value="Submit">Calculate</button></br></br>
+            </form>
+            <script>
+                 function check(input) {
+                   if (input.value == 0) {
+                     input.setCustomValidity('The number must not be zero.');
+                   } else {
+                     // input is fine -- reset the error message
+                     input.setCustomValidity('');
+                   }
+                 }
+         </script>
+            {% if bmi %}
+	    <p>{% print("Your BMI is: {}".format(bmi)) %}</p>
+            <p>{% print("{}".format(recommend)) %}</p>
+            {% endif %}
+        </h2>
+<br>
+                            <p align="center" class="bottom"><a href="{{ url_for('calc.info')}}">BMI Tables</a></p>
+                            <br>
+
+                 <p align="center" class="bottom">New User, no ID?  <a class="bottom" href="{{url_for('main.register')}}"> Sign up Here</a></p>
+                 <p>or</p>
+                 <p align="center" class="bottom"><a href="{{ url_for('main.logout')}}">Logout Here</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+{% endblock %}
