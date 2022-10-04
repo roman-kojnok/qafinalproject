@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/roman-kojnok/qafinalproject">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="main/static/images/logo.png" alt="Logo" width="229" height="50">
   </a>
 
   <h3 align="center">DfE Cloud Specialism - Final Project</h3>
