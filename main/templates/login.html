@@ -1,0 +1,31 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Login{% endblock %}
+{% block meta_description %}Fitness Calculator Website is a Flask CRUD Project to demonstrate understanding of DevOps process. {% endblock %}
+
+{% block body %}
+  <div class="container sm-margin-top">
+    <div class="row text-center lg-margin-bottom">
+       <h1>Welcome to Fitness Calculator</h1>
+      <h3 class="text-muted">
+      </h3><br><br><br><br>
+             <div class="header">
+                <h1>Login</h1>
+             </div>
+            <div class="msg">{{ msg }}</div>
+            <h2 class="word">
+                <!--form action="{{ url_for('main.login') }}" method="post"-->
+                <form action="" method="post">
+                  <!--div class="msg">{{ msg }}</div-->
+                    <input id="email" name="email" type="text" placeholder="Enter Email" class="textbox"/></br></br>
+                    <input id="password" name="password" type="password" placeholder="Enter Password" class="textbox"/></br></br>
+                    <input type="submit" class="btn" value="Log Me In"></br></br>
+                </form>
+            </h2>
+            <p align="center" class="bottom">New User?  <a class="bottom" href="{{url_for('main.register')}}"> Sign up Here</a></p>
+          <!--/div-->
+      </div>
+    </div>
+  </div>
+  </div>
+{% endblock %}

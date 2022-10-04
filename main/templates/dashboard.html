@@ -1,0 +1,42 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+{% block meta_description %}Fitness Calculator Website is a Flask CRUD Project to demonstrate understanding of DevOps process. {% endblock %}
+{% block body %}
+  <th class="container sm-margin-top">
+    <div class="row text-center lg-margin-bottom">
+       <h1>Welcome to Fitness Calculator!</h1>
+      <div class="text-muted">
+          <h2>Hi, {{ current_user.email }}</h2>
+          <h2>Your ID is: {{ current_user.id }}</h2>
+      </div>
+    </div>
+  </th>
+<h4>Registered Users:</h4>
+    <table class="table">
+                  <thead>
+                  <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Registered Date</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+
+                    {% for row in rows %}
+                        <tr>
+                          <td data-title="Id">{{row["id"]}}</td>
+                          <td data-title="Email">{{row["email"]}}</td>
+                            <td data-title="Registered">{{row["registered_on"]}}</td></tr>
+                     {% endfor %}
+
+    </tbody>
+    </table>
+            <br><br>
+           <p align="center" class="bottom"><a href="{{ url_for('main.logout')}}">Logout Here</a></p>
+             <!--p align="center" class="bottom"> <a href = "/">Go back to Home page</a> </p-->
+      </div>
+    </div>
+  </div>
+  </div>
+{% endblock %}
