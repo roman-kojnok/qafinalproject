@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from main import create_app
 from main.blueprints.page import page
 from main.blueprints.page import calc
