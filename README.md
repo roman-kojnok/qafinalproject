@@ -50,7 +50,7 @@ Objectives with this project is to achieve the following:
 ### Built With
 Major frameworks/libraries and Software used for this project:
 
-* [![Pyhon][Python.org]][Python-url]
+* [![Python][Python.org]][Python-url]
 * [![Flask][Flask.com]][Flask-url]
 * [![Docker][Docker.com]][Docker-url]
 * [![Jenkins][Jenkins.io]][Jenkins-url]
