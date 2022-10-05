@@ -81,7 +81,7 @@ Minimum Installation to run Fitness Application:
 
 * Python 3.7 or above
 
-* Python Environment
+* Python Environment. Run this command from the Project Directory:
   ```sh
   python3 -m venv venv
   ```
