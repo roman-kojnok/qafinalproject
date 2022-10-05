@@ -25,6 +25,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#erddiagram">ERD Diagram</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -71,6 +72,8 @@ For this project you need to use the following software:
 * Jenkins
 * Cloud Services (Azure, AWS)
 
+### ERD Diagram
+[![Database-Tables][erd-diagram]](https://www.edrawmax.com/er-diagram-tool/)
 
 ### Installation
 
@@ -86,9 +89,6 @@ Minimum Installation to run Fitness Application:
   ```sh
   pip install -r requirements.txt
   ```
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -155,6 +155,7 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: main/static/images/screenshot.png
+[erd-diagram]: main/static/images/crud_db.png
 [Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Python-url]: https://www.python.org/
 [Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
