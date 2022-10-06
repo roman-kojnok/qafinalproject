@@ -55,6 +55,7 @@ def register():
         password = request.form['password']
         if User.query.filter_by(email=email).first():
             msg = 'Email-ID Already Present!'
+            # return ('Email-ID Already Present')
         elif not password or not email:
             msg = 'Please fill Email and Password!'
         else:
@@ -90,6 +91,6 @@ def privacy():
 
 
 @bp.route('/FAQ')
-def faq():
+def FAQ():
     return render_template('page/FAQ.html')
 

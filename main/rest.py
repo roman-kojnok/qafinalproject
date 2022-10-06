@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import json
 from flask import jsonify, request, Blueprint
 from flask_login import login_user
@@ -10,6 +9,7 @@ user_schema = UserSchema()
 users_schema = UserSchema(many=True)
 
 
+# ############# routes #################
 @blueprint.route('/', methods=['GET', 'POST'])
 def index():
     # if 'email' in session:

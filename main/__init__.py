@@ -4,6 +4,8 @@ from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
 
 
+# ####### Configurations #########
+
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login = LoginManager()
