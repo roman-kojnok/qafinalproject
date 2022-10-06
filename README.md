@@ -150,6 +150,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Roman Kojnok - [@LinkedIn](https://www.linkedin.com/in/roman-kojnok-b69601161/) - roman.kojnok@protonmail.com
 
+Satish Jethwa - [@LinkedIn](https://www.linkedin.com/in/satishjethwa/) - satishncouk@gmail.com
+
 Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.com/roman-kojnok/qafinalproject)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
