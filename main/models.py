@@ -1,7 +1,7 @@
-#!/usr/bin/python
-from datetime import datetime
-from marshmallow import Schema
 from main import db, bcrypt
+from datetime import datetime
+from marshmallow import fields, Schema, validate
+from sqlalchemy import func
 
 
 class User(db.Model):
@@ -35,9 +35,9 @@ class User(db.Model):
     def is_active(self):
         return True
 
-    @property
-    def is_anonymous(self):
-        return False
+    # @property
+    # def is_anonymous(self):
+    #    return False
 
     def get_id(self):
         return str(self.id)
@@ -75,6 +75,14 @@ class User(db.Model):
     def __repr__(self):
         return '<User {}>'.format(self.email)
 
+
+# class UserSchema(Schema):
+#     id = fields.Int(dump_only=True)
+#     email = fields.Email(required=True, validate=validate.Email(error="Invalid email address provided"))
+#     hashed_password = fields.Str(required=True, validate=[validate.Length(min=2, max=8)])
+#     registered_on = fields.DateTime(dump_only=True)
+#     modified_at = fields.DateTime(dump_only=True)
+#     authenticated = fields.Boolean(dump_only=True)
 
 class UserSchema(Schema):
     class Meta:
