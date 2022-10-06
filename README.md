@@ -152,6 +152,10 @@ Roman Kojnok - [@LinkedIn](https://www.linkedin.com/in/roman-kojnok-b69601161/) 
 
 Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.com/roman-kojnok/qafinalproject)
 
+Roman Kojnok - [@LinkedIn](https://www.linkedin.com/in/roman-kojnok-b69601161/) - roman.kojnok@protonmail.com
+
+Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.com/roman-kojnok/qafinalproject)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: main/static/images/screenshot.png
