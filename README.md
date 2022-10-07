@@ -72,7 +72,7 @@ For this project you need to use the following software:
 * Flask
 * Docker
 * Jenkins
-* Cloud Services (Azure,AWS or Localhost)
+* Cloud Services (Azure,AWS or Localhostgit )
 
 ### ERD Diagram
 [![Database-Tables][erd-diagram]](https://www.edrawmax.com/er-diagram-tool/)
