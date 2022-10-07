@@ -72,7 +72,7 @@ For this project you need to use the following software:
 * Flask
 * Docker
 * Jenkins
-* Cloud Services (Azure, AWS)
+* Cloud Services (Azure,AWS or Localhost)
 
 ### ERD Diagram
 [![Database-Tables][erd-diagram]](https://www.edrawmax.com/er-diagram-tool/)
@@ -110,9 +110,9 @@ Minimum Installation to run Fitness Application:
 ## Roadmap
 
 - [x] Add Flask Folder Structure
-- [ ] Add Application Files
-- [ ] Add Docker File
-- [ ] Add Test File
+- [x] Add Application Files
+- [x] Add Docker File
+- [x] Add Test File
 - [ ] Add Jenkins File
 
 
