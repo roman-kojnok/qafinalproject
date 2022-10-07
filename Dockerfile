@@ -7,3 +7,4 @@ COPY requirements.txt requirements.txt
 RUN sudo pip install -r requirements.txt
 EXPOSE 5000
 CMD [ "python", "./run.py" ]
+
