@@ -51,10 +51,12 @@ Objectives with this project is to achieve the following:
 ### Built With
 Major frameworks/libraries and Software used for this project:
 
-* [![Python][Python.org]][Python-url]
-* [![Flask][Flask.com]][Flask-url]
-* [![Docker][Docker.com]][Docker-url]
-* [![Jenkins][Jenkins.io]][Jenkins-url]
+* Python
+* Flask
+* Docker
+* Jenkins
+* Jira
+* GitHub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,7 +159,7 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: main/static/images/screenshot.png
-[erd-diagram]: main/static/images/crud_db.png
+[erd-diagram]: main/static/images/app_db.png
 [Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
 [Python-url]: https://www.python.org/
 [Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
