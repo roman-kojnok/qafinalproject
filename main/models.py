@@ -94,20 +94,20 @@ class Record(db.Model):
     __tablename__ = 'records'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    ca_weight = db.Column(db.Float, unique=True, nullable=False)
-    ca_height = db.Column(db.Integer, unique=True, nullable=False)
-    ca_gender = db.Column(db.Integer, unique=True, nullable=False)
-    ca_age = db.Column(db.Integer, unique=True, nullable=False)
-    ca_bmi = db.Column(db.Float, unique=True, nullable=False)
-    ca_recommend = db.Column(db.String, unique=True, nullable=False)
-    ca_bmi = db.Column(db.Float, unique=True, nullable=False)
+    re_weight = db.Column(db.Float, unique=True, nullable=False)
+    re_height = db.Column(db.Integer, unique=True, nullable=False)
+    re_gender = db.Column(db.Integer, unique=True, nullable=False)
+    re_age = db.Column(db.Integer, unique=True, nullable=False)
+    re_bmi = db.Column(db.Float, unique=True, nullable=False)
+    re_recommend = db.Column(db.String, unique=True, nullable=False)
+    re_bmi = db.Column(db.Float, unique=True, nullable=False)
     created_on = db.Column(db.DateTime, nullable=True)
 
-    def __init__(self, ca_weight, ca_height, ca_gender, ca_age, ca_bmi, ca_recommend):
-        self.ca_weight = ca_weight
-        self.ca_height = ca_height
-        self.ca_gender = ca_gender
-        self.ca_age = ca_age
-        self.ca_bmi = ca_bmi
-        self.ca_recommend = ca_recommend
+    def __init__(self, re_weight, re_height, re_gender, re_age, re_bmi, re_recommend):
+        self.re_weight = re_weight
+        self.re_height = re_height
+        self.re_gender = re_gender
+        self.re_age = re_age
+        self.re_bmi = re_bmi
+        self.re_recommend = re_recommend
         self.created_on = datetime.now()
