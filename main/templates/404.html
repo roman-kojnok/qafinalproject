@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Page Not Found{% endblock %}
+{% block meta_description %}Fitness Calculator Website is a Flask CRUD Project to demonstrate understanding of DevOps process. {% endblock %}
+{% block body %}
+
+<h1>Oops! Looks like the page doesn't exist anymore</h1>
+<a href="{{ url_for('home.html') }}"><p>Click Here</a>To go to the Home Page</p>
+
+{{ url_for('home.html') }}
+{% endblock %}
