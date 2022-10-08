@@ -1,0 +1,12 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Delete Form{% endblock %}
+{% block meta_description %}Fitness Calculator Website is a Flask CRUD Project to demonstrate understanding of DevOps process. {% endblock %}
+{% block body %}
+    <h3>Your data will be deleted permanently, are you sure?</h3><br>
+<form action='' method="post">
+    Click YES to confirm
+    <input type = "submit" value="YES">
+    <a href='/dashboard'>Cancel</a>
+</form>
+{% endblock %}
