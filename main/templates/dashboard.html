@@ -27,7 +27,10 @@
                         <tr>
                           <td data-title="Id">{{row["id"]}}</td>
                           <td data-title="Email">{{row["email"]}}</td>
-                            <td data-title="Registered">{{row["registered_on"]}}</td></tr>
+                            <td data-title="Registered">{{row["registered_on"]}}</td>
+                            <td><a href="form-update/{{ row["id"] }}" class="btn btn-default">Edit</a>
+                                <a href="delete/{{ row["id"] }}" class="btn btn-default">Delete</a></td>
+                        </tr>
                      {% endfor %}
 
     </tbody>
