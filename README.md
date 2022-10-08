@@ -51,12 +51,12 @@ Objectives with this project is to achieve the following:
 ### Built With
 Major frameworks/libraries and Software used for this project:
 
-* Python
-* Flask
+* Python 3 - The language programming used
+* Flask - The web framework used
+* SQL Alchemy - The database library
+* Flask-SQLAlchemy - Flask and SQL Alchemy connector
 * Docker
 * Jenkins
-* Jira
-* GitHub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,11 +160,4 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 
 [product-screenshot]: main/static/images/screenshot.png
 [erd-diagram]: main/static/images/app_db.png
-[Python.org]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
-[Python-url]: https://www.python.org/
-[Flask.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
-[Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
-[Docker.com]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
-[Docker-url]: https://www.docker.com/
-[Jenkins.io]: ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/roman-kojnok/qafinalproject)
-[Jenkins-url]: https://www.jenkins.io/
+
