@@ -101,7 +101,7 @@ def logout():
     # logout_user()
 
 
-@blueprint.route('/delete', methods=['DELETE'])
+"""@blueprint.route('/delete', methods=['GET','POST'])
 def delete_record():
     record = json.loads(request.data)
     uid = record.get('id')
@@ -111,4 +111,4 @@ def delete_record():
     else:
         db.session.delete(user)
         db.session.commit()
-        return jsonify(user.to_json())
+        return jsonify(user.to_json())"""
