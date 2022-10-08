@@ -4,8 +4,6 @@ from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
 
 
-# ####### Configurations #########
-
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login = LoginManager()
@@ -25,7 +23,10 @@ def initialize_extensions(app):
     bcrypt.init_app(app)
     login.init_app(app)
 
-    # Flask-Login configuration
+    @app.before_first_request
+    def create_table():
+        db.create_all()
+
     from main.models import User
 
     @login.user_loader
@@ -39,3 +40,4 @@ def register_blueprints(app):
 
     from main.uiapp import bp
     app.register_blueprint(bp)
+
