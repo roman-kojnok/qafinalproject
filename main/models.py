@@ -93,14 +93,14 @@ class UserSchema(Schema):
 class Record(db.Model):
     __tablename__ = 'records'
 
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    re_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     re_weight = db.Column(db.Float, unique=True, nullable=False)
     re_height = db.Column(db.Integer, unique=True, nullable=False)
     re_gender = db.Column(db.Integer, unique=True, nullable=False)
     re_age = db.Column(db.Integer, unique=True, nullable=False)
     re_bmi = db.Column(db.Float, unique=True, nullable=False)
     re_recommend = db.Column(db.String, unique=True, nullable=False)
-    re_bmi = db.Column(db.Float, unique=True, nullable=False)
+    user_id = db.Column(db.Integer, nullable=False)  # Foreign Key
     created_on = db.Column(db.DateTime, nullable=True)
 
     def __init__(self, re_weight, re_height, re_gender, re_age, re_bmi, re_recommend):
@@ -111,3 +111,9 @@ class Record(db.Model):
         self.re_bmi = re_bmi
         self.re_recommend = re_recommend
         self.created_on = datetime.now()
+
+
+class RecordSchema(Schema):
+    class Meta:
+        # exposed fields
+        fields = ('re_id', 're_weight', 're_height', 're_gender', 're_bmi', 're_recommend', 'created_on')
