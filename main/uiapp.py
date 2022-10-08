@@ -1,7 +1,6 @@
 #!/usr/bin/python
-from flask import render_template, request, Blueprint, redirect
+from flask import render_template, request, Blueprint, redirect, abort
 from flask_login import current_user, login_user, logout_user, login_required
-
 from main import db
 from main.models import User, UserSchema
 
@@ -64,7 +63,7 @@ def register():
             db.session.add(user)
             db.session.commit()
             msg = email + ' : You have successfully registered. Redirecting to Login Page...'
-            return render_template('register.html', msg=msg), {"Refresh": "10; url=/login"}
+            return render_template('register.html', msg=msg), {"Refresh": "3; url=/login"}
     return render_template('register.html', msg=msg)
 
 
@@ -73,6 +72,13 @@ def register():
 def logout():
     logout_user()
     return redirect('/login')
+
+
+"""@bp.errorhandler(404)
+# inbuilt function which takes error as parameter
+def not_found(e):
+    # defining function
+    return render_template("404.html")"""
 
 
 @bp.route('/home')
@@ -94,3 +100,38 @@ def privacy():
 def FAQ():
     return render_template('page/FAQ.html')
 
+
+@bp.route('/delete/<int:id>', methods=['GET', 'POST'])
+def delete(id):
+    user = User.query.filter_by(id=id).first()
+    if request.method == 'POST':
+        if user:
+            db.session.delete(user)
+            db.session.commit()
+            return redirect('/dashboard')
+        return abort(404)
+
+    return render_template('delete.html')
+
+
+@bp.route('/form-update/<int:id>')
+def updateForm(id):
+    mhs = User.query.filter_by(id=id).first()
+    return render_template("form-update.html", data=mhs)
+
+
+@bp.route('/form-update', methods=['POST'])
+def update():
+    if request.method == 'POST':
+        id = request.form['id']
+        email = request.form['email']
+        try:
+            mhs = User.query.filter_by(id=id).first()
+            mhs.email = email
+            db.session.commit()
+        except Exception as e:
+            print("Failed to update data")
+            print(e)
+        return redirect("/dashboard")
+    result = users_schema.dump(User.get_all_users())
+    return render_template('dashboard.html', rows=result)
