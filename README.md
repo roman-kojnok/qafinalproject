@@ -44,6 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![Azure VM Screenshot][product-screenshot]](https://example.com)
+[![Azure VM Screenshot2][product-screenshot2]](https://example.com)
 Objectives with this project is to achieve the following:
 
 - To create a Flask application that integrates with a database and demonstrates CRUD functionality.
@@ -161,5 +162,6 @@ Project Link: [https://github.com/roman-kojnok/qafinalproject](https://github.co
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: main/static/images/screenshot.png
+[product-screenshot2]: main/static/images/screenshot2.png
 [erd-diagram]: main/static/images/app_db.png
 
