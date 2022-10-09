@@ -1,3 +1,8 @@
+
+<a href="https://github.com/DennyZhang?tab=followers"><img align="right" width="200" height="183" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/fork_github.png" /></a>
+
+[![LinkedIn](https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/linkedin.png)](https://www.linkedin.com/in/roman-kojnok) [![Github](https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/github.png)](https://github.com/roman-kojnok) [![Slack](https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/slack.png)](https://join.slack.com/t/kodekloud/shared_invite/zt-1hc0eyzr6-Kmj6DMP83uFrPwLwgSPTPQ)
+
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
@@ -8,9 +13,6 @@
 
   <h1 align="center">DfE Cloud Specialism - Final Project</h1>
 </div>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
