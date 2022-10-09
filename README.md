@@ -116,7 +116,9 @@ Minimum Installation to run Fitness Application:
 - [x] Add Application Files
 - [x] Add Docker File
 - [x] Add Test File
-- [ ] Add Jenkins File
+- [x] Add Jenkins File
+- [ ] Make Calculator saving data
+- [ ] Change SQLite to MySQL
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
